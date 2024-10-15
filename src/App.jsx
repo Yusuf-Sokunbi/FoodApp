@@ -1,14 +1,20 @@
 
 // import './App.css'
 import Header from './components/Header'
+import Meals from './components/Meals'
+import { CartContextProvider } from './store/CartContext';
+import Cart from './components/Cart';
+import { UserProgressContextProvider } from './store/UserProgressContext';
 function App() {
- 
-
   return (
-    <>
-   <Header />
-    </>
+    <UserProgressContextProvider>
+      <CartContextProvider>
+        <Header />
+        <Meals />
+        <Cart />
+      </CartContextProvider>
+    </UserProgressContextProvider>
   )
 }
 
-export default App
+export default App;
