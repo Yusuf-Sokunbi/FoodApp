@@ -138,5 +138,11 @@
     "price": "8.99",
     "description": "Crispy falafels wrapped in a warm pita with lettuce, tomatoes, and a tahini sauce.",
     "image": "images/falafel-wrap.jpg"
+  }, {
+    "id": "m21",
+    "name": "Jolly Rice",
+    "price": "10.99",
+    "description": "Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs. A classic comfort food.",
+    "image": "images/jollof-rice.jpeg"
   }
 ]
